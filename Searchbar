@@ -1,0 +1,30 @@
+/* Style for the sort by dropdown */
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    margin-left: 10px;
+}
+
+/* Style for the search products input */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 200px;
+    margin-right: 10px;
+}
+
+/* Optional: Styling for hover effects */
+select:hover, input[type="text"]:hover {
+    border-color: #888;
+}
+
+select:focus, input[type="text"]:focus {
+    outline: none;
+    border-color: #555;
+}
